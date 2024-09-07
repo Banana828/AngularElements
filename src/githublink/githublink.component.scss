@@ -1,0 +1,21 @@
+.github-link {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+  
+    &:hover {
+      background-color: #f7f7f74f;
+    }
+  }
+  
+  .link-title {
+    margin-left: 8px;
+  }
+  
