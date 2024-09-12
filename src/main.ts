@@ -1,10 +1,10 @@
 import { createApplication } from '@angular/platform-browser';
 import { createCustomElement } from '@angular/elements';
 import { GithubLinkComponent } from './githublink/githublink.component';
-import { ɵprovideZonelessChangeDetection } from '@angular/core';
+import { provideZoneChangeDetection } from '@angular/core';
 
 createApplication({
-  providers: [ɵprovideZonelessChangeDetection()],
+  providers: [provideZoneChangeDetection()],
 })
   .then((app) => {
     const GithubLinkElement = createCustomElement(GithubLinkComponent, { injector: app.injector });
